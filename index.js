@@ -14,7 +14,7 @@ var host = data["ip"];
 var username = data["name"]
 var bot = mineflayer.createBot({
   host: host,
-  username: username
+  username: Dreamxdsmp64
 });
 function getRandomArbitrary(min, max) {
        return Math.random() * (max - min) + min;
